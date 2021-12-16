@@ -1,0 +1,21 @@
+! 百度
+baidu.com#?#div.FYB_RD
+zhidao.baidu.com#?##qb-side
+zhidao.baidu.com#?#div.question-number-text-chain
+
+! bilibili
+bilibili.com#?##live_recommand_report
+bilibili.com#?#div.trending
+t.bilibili.com#?#div.tag-item a.content
+bilibili.com#?##reportFirst2
+bilibili.com#?##reportFirst3
+bilibili.com#?##bili_live
+bilibili.com#?#a.banner-card.b-wrap
+bilibili.com#?##app > div > div.first-screen.b-wrap > div:nth-child(1)
+bilibili.com#?##bili_manga
+t.bilibili.com#?#div.topic-panel
+t.bilibili.com#?#div.new-topic
+
+! 简书
+www.jianshu.com#?#div > div > section._3Z3nHf
+www.jianshu.com#?#section.-umr26
