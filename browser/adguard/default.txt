@@ -19,6 +19,11 @@ bilibili.com#?##bili_teleplay
 bilibili.com#?#div.rank-list
 bilibili.com#?#div.pgc-rank
 bilibili.com#?##bili_fashion
+bilibili.com#?##bili_life
+bilibili.com#?##bili_ent
+bilibili.com#?##bili_movie
+bilibili.com#?##bili_music
+bilibili.com#?##bili_guochuang
 
 ! 简书
 www.jianshu.com#?#div > div > section._3Z3nHf
