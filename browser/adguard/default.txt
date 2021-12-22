@@ -15,6 +15,7 @@ bilibili.com#?##app > div > div.first-screen.b-wrap > div:nth-child(1)
 bilibili.com#?##bili_manga
 t.bilibili.com#?#div.topic-panel
 t.bilibili.com#?#div.new-topic
+bilibili.com#?##bili_teleplay
 
 ! 简书
 www.jianshu.com#?#div > div > section._3Z3nHf
