@@ -17,6 +17,7 @@ t.bilibili.com#?#div.topic-panel
 t.bilibili.com#?#div.new-topic
 bilibili.com#?##bili_teleplay
 bilibili.com#?#div.rank-list
+bilibili.com#?#div.pgc-rank
 
 ! 简书
 www.jianshu.com#?#div > div > section._3Z3nHf
