@@ -24,6 +24,7 @@ bilibili.com#?##bili_ent
 bilibili.com#?##bili_movie
 bilibili.com#?##bili_music
 bilibili.com#?##bili_guochuang
+bilibili.com#?#div.special-recommend
 
 ! 简书
 www.jianshu.com#?#div > div > section._3Z3nHf
