@@ -30,3 +30,6 @@ bilibili.com#?##bili_report_knowledge
 ! 简书
 www.jianshu.com#?#div > div > section._3Z3nHf
 www.jianshu.com#?#section.-umr26
+
+! gitee
+gitee.com#?#div.recommend__container
