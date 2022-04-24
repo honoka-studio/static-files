@@ -23,21 +23,18 @@
     //endregion
 
     //region 代码
-    let checkAndDoBlock = function() {
+    let checkAndDoBlock = function(count) {
+        if(count >= 5) return;
         let sectionList = document.querySelectorAll('.bili-footer');
         if(sectionList.length > 0) {
             doBlock();
             return;
         }
         setTimeout(function() {
-            checkAndDoBlock();
+            checkAndDoBlock(count + 1);
         }, 1000);
     }
     let doBlock = function() {
-        //搜索框推荐词
-        let searchInput = document.querySelector('.nav-search-input');
-        searchInput.title = '';
-        searchInput.placeholder = '';
         //分区
         let areaList = document.querySelectorAll('section.bili-grid');
         for(let area of areaList) {
@@ -50,5 +47,5 @@
         }
     }
     //endregion
-    checkAndDoBlock();
+    checkAndDoBlock(0);
 })();
