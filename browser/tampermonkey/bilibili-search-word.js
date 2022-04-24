@@ -19,7 +19,7 @@
         '.nav-search-keyword'
     ]
     let doBlock = function(count) {
-        if(count >= 5) return;
+        if(count >= 10) return;
         for(let selectorName of selectorNames) {
             let searchInputList = document.querySelectorAll(selectorName);
             for(let item of searchInputList) {
@@ -29,7 +29,7 @@
         }
         setTimeout(function() {
             doBlock(count + 1);
-        }, 1000);
+        }, 500);
     }
     doBlock(0);
 })();
