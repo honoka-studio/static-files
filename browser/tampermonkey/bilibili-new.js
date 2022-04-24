@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         bilibili新版首页优化
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  bilibili新版首页优化
 // @author       Kosaka Bun
 // @match        *://*.bilibili.com/*
-// @icon         https://bilibili.com
+// @icon         https://www.bilibili.com/favicon.ico
 // @grant        none
 // @run-at       document-end
 // @noframes
@@ -23,19 +23,32 @@
     //endregion
 
     //region 代码
-    //搜索框推荐词
-    let searchInput = document.querySelector('.nav-search-input');
-    searchInput.title = '';
-    searchInput.placeholder = '';
-    //分区
-    let areaList = document.querySelectorAll('section.bili-grid');
-    for(let area of areaList) {
-        let spans = area.querySelectorAll('.area-header .left span');
-        for(let span of spans) {
-            if(blockAreaNameList.indexOf(span.innerHTML.trim()) !== -1) {
-                area.style.display = 'none';
+    let checkAndDoBlock = function() {
+        let sectionList = document.querySelectorAll('section.bili-grid');
+        if(sectionList.length > 0) {
+            doBlock();
+            return;
+        }
+        setTimeout(function() {
+            checkAndDoBlock();
+        }, 1000);
+    }
+    let doBlock = function() {
+        //搜索框推荐词
+        let searchInput = document.querySelector('.nav-search-input');
+        searchInput.title = '';
+        searchInput.placeholder = '';
+        //分区
+        let areaList = document.querySelectorAll('section.bili-grid');
+        for(let area of areaList) {
+            let spans = area.querySelectorAll('.area-header .left span');
+            for(let span of spans) {
+                if(blockAreaNameList.indexOf(span.innerHTML.trim()) !== -1) {
+                    area.style.display = 'none';
+                }
             }
         }
     }
     //endregion
+    checkAndDoBlock();
 })();

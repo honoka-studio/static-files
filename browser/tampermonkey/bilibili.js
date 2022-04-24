@@ -5,7 +5,7 @@
 // @description  bilibili首页优化
 // @author       Kosaka Bun
 // @match        *://*.bilibili.com/*
-// @icon         https://bilibili.com
+// @icon         https://www.bilibili.com/favicon.ico
 // @grant        none
 // @require      https://cdn.jsdelivr.net/npm/jquery-tampers@3.2.1/jquery.min.js
 // @run-at       document-end
