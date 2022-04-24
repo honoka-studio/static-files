@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         屏蔽bilibili搜索栏推荐
+// @name         bilibili首页优化
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
-// @description  try to take over the world!
-// @author       You
+// @version      1.0.3
+// @description  bilibili首页优化
+// @author       Kosaka Bun
 // @match        *://*.bilibili.com/*
 // @icon         https://bilibili.com
 // @grant        none
@@ -28,7 +28,7 @@
         }
         //检查搜索框内容
         let placeholder = selector.attr('placeholder');
-        if(placeholder == '') {
+        if(placeholder === '') {
             setTimeout(function() {
                 check();
             }, 200);
