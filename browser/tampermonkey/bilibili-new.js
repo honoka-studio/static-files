@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili新版首页优化
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  bilibili新版首页优化
 // @author       Kosaka Bun
 // @match        *://*.bilibili.com/*
@@ -24,7 +24,7 @@
 
     //region 代码
     let checkAndDoBlock = function() {
-        let sectionList = document.querySelectorAll('section.bili-grid');
+        let sectionList = document.querySelectorAll('.bili-footer');
         if(sectionList.length > 0) {
             doBlock();
             return;
