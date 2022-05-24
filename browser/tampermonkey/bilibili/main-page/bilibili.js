@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         bilibili首页优化
 // @namespace    http://tampermonkey.net/
-// @version      1.0.3
+// @version      1.0.4
 // @description  bilibili首页优化
 // @author       Kosaka Bun
-// @match        *://*.bilibili.com/*
+// @match        *://www.bilibili.com/
 // @icon         https://www.bilibili.com/favicon.ico
 // @grant        none
 // @require      https://cdn.jsdelivr.net/npm/jquery-tampers@3.2.1/jquery.min.js
