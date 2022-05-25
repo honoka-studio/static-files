@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili个人空间关注列表增强
 // @namespace    http://tampermonkey.net/
-// @version      1.0.5
+// @version      1.0.6
 // @description  bilibili个人空间关注列表增强
 // @author       Kosaka Bun
 // @match        *://space.bilibili.com/*
@@ -30,7 +30,7 @@
             let unfollowBtns = document.querySelectorAll('.unfollow-btn');
             for(let btn of unfollowBtns) {
                 setTimeout(function() {
-                    let event = document.createEvent("HTMLEvents");
+                    let event = document.createEvent('HTMLEvents');
                     event.initEvent('click', true, true);
                     btn.dispatchEvent(event);
                 }, 0);
@@ -73,7 +73,7 @@
                 let dropDownItems = dom.querySelectorAll('.be-dropdown-item');
                 for(let dropDown of dropDownItems) {
                     if(dropDown.innerText.trim() !== '取消关注') continue;
-                    let event = document.createEvent("HTMLEvents");
+                    let event = document.createEvent('HTMLEvents');
                     event.initEvent('click', true, true);
                     dropDown.dispatchEvent(event);
                     unfollowBtnDiv.setAttribute('class',
