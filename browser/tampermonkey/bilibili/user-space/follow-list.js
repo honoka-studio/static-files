@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili个人空间关注列表增强
 // @namespace    http://tampermonkey.net/
-// @version      1.0.4
+// @version      1.0.5
 // @description  bilibili个人空间关注列表增强
 // @author       Kosaka Bun
 // @match        *://space.bilibili.com/*
@@ -27,6 +27,14 @@
         dom.appendChild(dom2);
         dom2.onclick = function() {
             if(!confirm('确定取关本页所有用户吗？')) return;
+            let unfollowBtns = document.querySelectorAll('.unfollow-btn');
+            for(let btn of unfollowBtns) {
+                setTimeout(function() {
+                    let event = document.createEvent("HTMLEvents");
+                    event.initEvent('click', true, true);
+                    btn.dispatchEvent(event);
+                }, 0);
+            }
             dom2.setAttribute('class',
                 'fans-action-btn fans-action-follow');
             dom2.setAttribute('style',
