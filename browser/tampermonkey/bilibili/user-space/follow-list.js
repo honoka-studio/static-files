@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili个人空间关注列表增强
 // @namespace    http://tampermonkey.net/
-// @version      1.0.6
+// @version      1.0.7
 // @description  bilibili个人空间关注列表增强
 // @author       Kosaka Bun
 // @match        *://space.bilibili.com/*
@@ -41,8 +41,18 @@
                 dom2Style + ' width: 54px;');
             dom2.onclick = undefined;
         };
-        document.querySelectorAll('ul.relation-list')[0]
-            .appendChild(dom);
+        let checkAndAdd = function(count) {
+            if(count > 15) return;
+            setTimeout(function() {
+                if(document.querySelectorAll('.unfollow-btn').length <= 0) {
+                    checkAndAdd(count + 1);
+                    return;
+                }
+                document.querySelectorAll('ul.relation-list')[0]
+                    .appendChild(dom);
+            }, 200);
+        };
+        checkAndAdd(0);
     };
     let checkAndDoScript = function(count) {
         setTimeout(function() {
