@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili搜索框推荐词拦截
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  bilibili搜索框推荐词拦截
 // @author       Kosaka Bun
 // @match        *://*.bilibili.com/*
@@ -17,20 +17,26 @@
     let selectorNames = [
         '.nav-search-input',
         '.nav-search-keyword'
-    ]
-    let doBlock = function(count) {
-        if(count >= 10) return;
-        for(let selectorName of selectorNames) {
-            let searchInputList = document.querySelectorAll(selectorName);
-            for(let item of searchInputList) {
-                item.title = '';
-                item.placeholder = '';
-            }
-        }
+    ];
+    let checkAndDoScript = function(count) {
+        if(count >= 50) return;
         setTimeout(function() {
-            doBlock(count + 1);
-        }, 500);
+            for(let selectorName of selectorNames) {
+                let searchInputList = document.querySelectorAll(selectorName);
+                for(let item of searchInputList) {
+                    if(item.title !== '' || item.placeholder !== '') {
+                        doScript(item);
+                        return;
+                    }
+                }
+            }
+            checkAndDoScript(count + 1);
+        }, 200);
+    };
+    let doScript = function(item) {
+        item.title = '';
+        item.placeholder = '';
     }
-    doBlock(0);
+    checkAndDoScript(0);
 })();
 
