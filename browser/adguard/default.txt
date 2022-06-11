@@ -32,7 +32,7 @@ bilibili.com#?#div.recommend-container__2-line
 bilibili.com#?#div.eva-extension-area
 bilibili.com#?#div.eva-banner
 bilibili.com#?#div.aside-wrap
-search.bilibili.com#?#div.search-panel div.trending
+bilibili.com#?#div.search-panel div.trending
 
 ! 简书
 www.jianshu.com#?#div > div > section._3Z3nHf
