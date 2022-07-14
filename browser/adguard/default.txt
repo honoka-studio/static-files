@@ -35,8 +35,10 @@ bilibili.com#?#div.aside-wrap
 bilibili.com#?#div.search-panel div.trending
 
 ! 简书
-www.jianshu.com#?#div > div > section._3Z3nHf
-www.jianshu.com#?#section.-umr26
+jianshu.com#?#div > div > section._3Z3nHf
+jianshu.com#?#section.-umr26
+jianshu.com#?#h3.QxT4hD
+jianshu.com#?#h3._1iTR78
 
 ! gitee
 gitee.com#?#div.recommend__container
