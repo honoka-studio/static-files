@@ -38,7 +38,7 @@ bilibili.com#?#div.search-panel div.trending
 jianshu.com#?#div > div > section._3Z3nHf
 jianshu.com#?#section.-umr26
 jianshu.com#?#h3.QxT4hD
-jianshu.com#?#h3._1iTR78
+jianshu.com#?#ul._1iTR78
 
 ! gitee
 gitee.com#?#div.recommend__container
