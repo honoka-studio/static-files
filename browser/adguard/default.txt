@@ -43,3 +43,6 @@ jianshu.com#?#ul._1iTR78
 
 ! gitee
 gitee.com#?#div.recommend__container
+
+! github
+github.com#?#div[aria-label='Explore Repositories']
