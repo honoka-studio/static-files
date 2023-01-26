@@ -47,3 +47,4 @@ gitee.com#?#div.recommend__container
 
 ! github
 github.com#?#div[aria-label='Explore Repositories']
+github.com#?#div[aria-label='Explore repositories']
