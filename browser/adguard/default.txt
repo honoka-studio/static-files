@@ -40,9 +40,11 @@ jianshu.com#?#div > div > section._3Z3nHf
 jianshu.com#?#section.-umr26
 jianshu.com#?#h3.QxT4hD
 jianshu.com#?#ul._1iTR78
+jianshu.com#?#aside._2OwGUo > section:nth-child(3)
 
 ! gitee
 gitee.com#?#div.recommend__container
 
 ! github
 github.com#?#div[aria-label='Explore Repositories']
+github.com#?#div[aria-label='Explore repositories']
