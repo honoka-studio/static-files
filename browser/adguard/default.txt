@@ -44,6 +44,9 @@ jianshu.com#?#aside._2OwGUo > section:nth-child(3)
 
 ! gitee
 gitee.com#?#div.recommend__container
+gitee.com#?#div.relative.w-68.pt-6 .h-full .mb9
+gitee.com#?#div.relative.w-68.pt-6 .h-full .mb4
+gitee.com#?#div.relative.w-68.pt-6 .h-full .mb0
 
 ! github
 github.com#?#div[aria-label='Explore Repositories']
