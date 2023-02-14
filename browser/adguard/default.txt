@@ -26,6 +26,7 @@ bilibili.com#?##bili_music
 bilibili.com#?##bili_guochuang
 bilibili.com#?#div.special-recommend
 bilibili.com#?##bili_report_knowledge
+bilibili.com#?#div.pop-live-small-mode.part-undefined
 
 ! bilibili新版界面
 bilibili.com#?#div.recommend-container__2-line
