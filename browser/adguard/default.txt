@@ -52,3 +52,6 @@ gitee.com#?#div.relative.w-68.pt-6 .h-full .mb-0
 ! github
 github.com#?#div[aria-label='Explore Repositories']
 github.com#?#div[aria-label='Explore repositories']
+
+! google
+google.com#?#div.ea0Lbe
