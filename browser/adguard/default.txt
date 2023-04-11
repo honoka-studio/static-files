@@ -54,4 +54,4 @@ github.com#?#div[aria-label='Explore Repositories']
 github.com#?#div[aria-label='Explore repositories']
 
 ! google
-google.com#?#div.ea0Lbe
+google.com#?#c-wiz[jsdata=deferred-c1]
