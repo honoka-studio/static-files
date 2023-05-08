@@ -42,6 +42,7 @@ jianshu.com#?#section.-umr26
 jianshu.com#?#h3.QxT4hD
 jianshu.com#?#ul._1iTR78
 jianshu.com#?#aside._2OwGUo > section:nth-child(3)
+jianshu.com#?#div._gp-ck > section:nth-child(2)
 
 ! gitee
 gitee.com#?#div.recommend__container
