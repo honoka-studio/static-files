@@ -35,6 +35,7 @@ bilibili.com#?#div.eva-banner
 bilibili.com#?#div.aside-wrap
 bilibili.com#?#div.search-panel div.trending
 bilibili.com#?#.adblock-tips
+bilibili.com#?#div.bpx-player-cmd-dm-inside
 
 ! 简书
 jianshu.com#?#div > div > section._3Z3nHf
