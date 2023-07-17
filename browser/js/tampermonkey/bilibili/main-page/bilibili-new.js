@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili新版首页优化
 // @namespace    http://tampermonkey.net/
-// @version      1.0.5
+// @version      1.0.6
 // @description  bilibili新版首页优化
 // @author       Kosaka Bun
 // @match        *://www.bilibili.com/*
@@ -18,7 +18,7 @@
     const blockAreaNameList = [
         '直播', '番剧', '国创', '综艺', '漫画', '游戏',
         '知识', '生活', '时尚', '资讯', '娱乐', '专栏',
-        '电影', '电视剧', '影视', '赛事', '推广'
+        '电影', '电视剧', '影视', '赛事', '推广', '音乐'
     ];
     //endregion
 
