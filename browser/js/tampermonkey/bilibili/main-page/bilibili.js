@@ -5,7 +5,7 @@
 // @description  bilibili首页优化
 // @author       Kosaka Bun
 // @match        *://www.bilibili.com/
-// @icon         https://www.bilibili.com/favicon.ico
+// @icon         https://blog.honoka.de/images/others/avatar/shizuku.png
 // @grant        none
 // @require      https://cdn.jsdelivr.net/npm/jquery-tampers@3.2.1/jquery.min.js
 // @run-at       document-end

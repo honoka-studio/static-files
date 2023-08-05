@@ -5,7 +5,7 @@
 // @description  bilibili个人空间关注列表增强
 // @author       Kosaka Bun
 // @match        *://space.bilibili.com/*
-// @icon         https://www.bilibili.com/favicon.ico
+// @icon         https://blog.honoka.de/images/others/avatar/shizuku.png
 // @grant        none
 // @run-at       document-end
 // @noframes

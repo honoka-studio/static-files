@@ -4,6 +4,7 @@
 // @version      1.0.0
 // @author       Kosaka Bun
 // @match        *://www.google.com/search*
+// @icon         https://blog.honoka.de/images/others/avatar/shizuku.png
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
