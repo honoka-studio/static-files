@@ -1,5 +1,5 @@
 ! 百度
-baidu.com#?#div.FYB_RD
+baidu.com#?#div.cr-content.new-pmd.local-content_ARaee
 zhidao.baidu.com#?##qb-side
 zhidao.baidu.com#?#div.question-number-text-chain
 
