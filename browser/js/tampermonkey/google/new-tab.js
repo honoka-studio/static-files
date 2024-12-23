@@ -1,19 +1,22 @@
 // ==UserScript==
 // @name         Google搜索结果在新标签页打开
-// @namespace    http://tampermonkey.net/
+// @description  none
+// @namespace    https://github.com/kosaka-bun
 // @version      1.0.0
 // @author       Kosaka Bun
 // @match        *://www.google.com/search*
-// @icon         https://blog.honoka.de/images/others/avatar/shizuku.png
+// @icon         https://www.google.com/favicon.ico
 // @grant        none
+// @require      https://raw.githubusercontent.com/kosaka-bun/static-files/refs/heads/master/browser/js/honoka-browser-utils/basic.js
 // @run-at       document-end
 // ==/UserScript==
+//noinspection JSIgnoredPromiseFromCall
 
-(function() {
-    'use strict';
+;(function() {
+  'use strict'
 
-    let urlTags = document.querySelectorAll('div#rso a')
-    for(let tag of urlTags) {
-        tag.setAttribute('target', '_blank')
-    }
-})();
+  let urlTags = document.querySelectorAll('div#rso a')
+  for(let it of urlTags) {
+    it.setAttribute('target', '_blank')
+  }
+})()
