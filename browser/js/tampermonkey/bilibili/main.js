@@ -2,7 +2,7 @@
 // @name         bilibili基本优化
 // @description  none
 // @namespace    https://github.com/kosaka-bun
-// @version      1.0.0
+// @version      1.0.1
 // @author       Kosaka Bun
 // @match        *://*.bilibili.com/*
 // @icon         https://www.bilibili.com/favicon.ico
@@ -24,7 +24,7 @@
     ]
     let elements = []
     for(let it of selectorNames) {
-      elements.push(document.querySelectorAll(it))
+      elements.push(...document.querySelectorAll(it))
     }
     for(let i = 0; i < 50; i++) {
       for(let it of elements) {
