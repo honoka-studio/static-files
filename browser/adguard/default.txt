@@ -41,6 +41,7 @@ bilibili.com#?#.adblock-tips
 bilibili.com#?#div.recommended-swipe
 bilibili.com#?#a.ad-report
 bilibili.com#?#div.pop-live-small-mode
+bilibili.com#?#div.bili-dyn-search-trendings
 
 ! 简书
 jianshu.com#?#div > div > section._3Z3nHf
