@@ -12,7 +12,7 @@
 // ==/UserScript==
 //noinspection JSIgnoredPromiseFromCall
 
-;(function() {
+(function() {
   'use strict'
 
   const utils = window.honokaBrowserUtils
@@ -43,4 +43,4 @@
   }
 
   removeSearchPlaceholder()
-})()
+})();

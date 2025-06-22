@@ -12,11 +12,11 @@
 // ==/UserScript==
 //noinspection JSIgnoredPromiseFromCall
 
-;(function() {
+(function() {
   'use strict'
 
   let urlTags = document.querySelectorAll('div#rso a')
   for(let it of urlTags) {
     it.setAttribute('target', '_blank')
   }
-})()
+})();

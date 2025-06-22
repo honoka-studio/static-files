@@ -16,4 +16,4 @@ window.honokaBrowserUtils.crypto = {
   }
 }
 
-crypto.randomUUID = window.honokaBrowserUtils.crypto.randomUUID
+crypto.randomUUID = window.honokaBrowserUtils.crypto.randomUUID;
