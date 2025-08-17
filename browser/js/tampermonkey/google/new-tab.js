@@ -19,4 +19,4 @@
   for(let it of urlTags) {
     it.setAttribute('target', '_blank')
   }
-})();
+})()

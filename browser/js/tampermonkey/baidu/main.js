@@ -2,7 +2,7 @@
 // @name         百度基本优化
 // @description  none
 // @namespace    https://github.com/kosaka-bun
-// @version      1.0.0
+// @version      1.0.2
 // @author       Kosaka Bun
 // @match        *://*.baidu.com/*
 // @icon         https://www.baidu.com/favicon.ico
@@ -15,20 +15,18 @@
 (function() {
   'use strict'
 
-  const utils = window.honokaBrowserUtils
-
   async function removeSearchPlaceholder() {
-    let elements = document.querySelectorAll('#s_kw_wrap .s_ipt')
-    for(let i = 0; i < 30; i++) {
-      for(let it of elements) {
-        if(it.placeholder !== '') {
-          it.placeholder = ''
-          return
-        }
-      }
-      await utils.basic.sleep(100)
-    }
+    let count = 0
+    let task = setInterval(() => {
+      let textArea = document.getElementById('chat-textarea')
+      if(!textArea) return
+      textArea.removeAttribute('data-ai-placeholder')
+      textArea.removeAttribute('data-normal-placeholder')
+      textArea.removeAttribute('placeholder')
+      count++
+      if(count >= 30) clearInterval(task)
+    }, 100)
   }
 
   removeSearchPlaceholder()
-})();
+})()

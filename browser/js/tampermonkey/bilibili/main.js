@@ -43,4 +43,4 @@
   }
 
   removeSearchPlaceholder()
-})();
+})()
