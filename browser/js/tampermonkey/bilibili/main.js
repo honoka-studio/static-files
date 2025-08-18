@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         bilibili基本优化
 // @description  none
-// @namespace    https://github.com/kosaka-bun
+// @namespace    https://github.com/honoka-studio
 // @version      1.0.2
 // @author       Kosaka Bun
 // @match        *://*.bilibili.com/*
 // @icon         https://www.bilibili.com/favicon.ico
 // @grant        none
-// @require      https://raw.githubusercontent.com/kosaka-bun/static-files/refs/heads/master/browser/js/honoka-browser-utils/basic.js
+// @require      https://raw.githubusercontent.com/honoka-studio/static-files/refs/heads/master/browser/js/honoka-browser-utils/basic.js
 // @run-at       document-end
 // ==/UserScript==
 //noinspection JSIgnoredPromiseFromCall

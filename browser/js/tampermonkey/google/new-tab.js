@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Google搜索结果在新标签页打开
 // @description  none
-// @namespace    https://github.com/kosaka-bun
+// @namespace    https://github.com/honoka-studio
 // @version      1.0.0
 // @author       Kosaka Bun
 // @match        *://www.google.com/search*
 // @icon         https://www.google.com/favicon.ico
 // @grant        none
-// @require      https://raw.githubusercontent.com/kosaka-bun/static-files/refs/heads/master/browser/js/honoka-browser-utils/basic.js
+// @require      https://raw.githubusercontent.com/honoka-studio/static-files/refs/heads/master/browser/js/honoka-browser-utils/basic.js
 // @run-at       document-end
 // ==/UserScript==
 //noinspection JSIgnoredPromiseFromCall
