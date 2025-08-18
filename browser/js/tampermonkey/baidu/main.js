@@ -2,7 +2,7 @@
 // @name         百度基本优化
 // @description  none
 // @namespace    https://github.com/kosaka-bun
-// @version      1.0.2
+// @version      1.0.3
 // @author       Kosaka Bun
 // @match        *://*.baidu.com/*
 // @icon         https://www.baidu.com/favicon.ico
@@ -15,7 +15,7 @@
 (function() {
   'use strict'
 
-  async function removeSearchPlaceholder() {
+  function removeSearchPlaceholder() {
     let count = 0
     let task = setInterval(() => {
       let textArea = document.getElementById('chat-textarea')
